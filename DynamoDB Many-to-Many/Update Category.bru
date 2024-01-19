@@ -1,0 +1,17 @@
+meta {
+  name: Update Category
+  type: http
+  seq: 8
+}
+
+put {
+  url: http://localhost:3000/stores/1234/categories/2b8drdIWSHjesaxzhV2qIr1VUGo
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Shirts"
+  }
+}

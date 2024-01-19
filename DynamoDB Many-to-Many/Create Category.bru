@@ -1,0 +1,17 @@
+meta {
+  name: Create Category
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/stores/1234/categories
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Pants"
+  }
+}

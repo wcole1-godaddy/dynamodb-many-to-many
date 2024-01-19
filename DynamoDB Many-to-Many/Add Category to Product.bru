@@ -1,0 +1,17 @@
+meta {
+  name: Add Category to Product
+  type: http
+  seq: 10
+}
+
+post {
+  url: http://localhost:3000/stores/1234/products/2b8VPoAvebnKjmj8K8OwhpLL8fy/categories
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "categoryId": "2b8drdIWSHjesaxzhV2qIr1VUGo"
+  }
+}

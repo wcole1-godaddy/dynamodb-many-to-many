@@ -1,0 +1,5 @@
+{
+  "version": "1",
+  "name": "DynamoDB Many-to-Many",
+  "type": "collection"
+}

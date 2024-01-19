@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.494.0",
+    "@aws-sdk/lib-dynamodb": "^3.494.0",
+    "dynamodb-toolbox": "^0.9.2",
+    "hono": "^3.12.5",
+    "ksuid": "^3.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.0"
+  }
+}
